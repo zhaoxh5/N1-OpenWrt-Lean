@@ -19,7 +19,7 @@ sed -i 's/OpenWrt/Phicomm N1/g' ./package/base-files/files/bin/config_generate
 
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
 git clone -b master https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash  #openclash出国软件
-git clone -b 18.06 https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus #luci-app-adblock-plus去广告软件
+#git clone -b 18.06 https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus #luci-app-adblock-plus去广告软件
 #git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash  #clash出国软件
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
 #svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
