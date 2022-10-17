@@ -22,8 +22,6 @@ git clone -b master https://github.com/vernesong/OpenClash.git package/lean/luci
 #git clone -b 18.06 https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus #luci-app-adblock-plus去广告软件
 #git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash  #clash出国软件
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #京东签到
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwall package/lean/luci-app-passwall  #passwall出国软件
-#svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/package  #passwall出国软件配套
 git clone -b packages https://github.com/xiaorouji/openwrt-passwall.git package/lean/package  #passwallpasswall基本依赖
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/lean/luci-app-passwall  #passwall出国软件
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome  #adguardhome
