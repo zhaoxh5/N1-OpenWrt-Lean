@@ -9,7 +9,7 @@
 sed -i 's/192.168.1.1/192.168.0.5/g' ./package/base-files/files/bin/config_generate
 
 # 修改主机名字，把OpenWrt-123修改你喜欢的就行（不能纯数字或者使用中文）
-sed -i 's/OpenWrt/Phicomm N1/g' ./package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/Phicomm_N1/g' ./package/base-files/files/bin/config_generate
 
 
 #内核版本是会随着源码更新而改变的，在coolsnowwolf/lede的源码查看最好，以X86机型为例，源码的target/linux/x86文件夹可以看到有几个内核版本，x86文件夹里Makefile可以查看源码正在使用内核版本
@@ -19,7 +19,6 @@ sed -i 's/OpenWrt/Phicomm N1/g' ./package/base-files/files/bin/config_generate
 
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
 git clone -b master https://github.com/vernesong/OpenClash.git package/lean/luci-app-openclash  #openclash出国软件
-#git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash  #clash出国软件
 git clone -b packages https://github.com/xiaorouji/openwrt-passwall.git package/lean/package  #passwall基本依赖
 git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/lean/luci-app-passwall  #passwall出国软件
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome  #adguardhome
