@@ -23,7 +23,7 @@ git clone -b main https://github.com/xiaorouji/openwrt-passwall.git package/lean
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome  #adguardhome
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/lean/luci-app-openclash  #openclash出国软件
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/lean/luci-app-amlogic  #晶晨宝盒
-echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default  #添加SSR-Plus
+echo "src-git ssrp https://github.com/fw876/helloworld.git;main" >> ./feeds.conf.default  #添加SSR-Plus
 
 #rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon  #新的argon主题
 #全新的[argon-主题]此主题玩法很多,这里看说明【https://github.com/jerrykuku/luci-theme-argon/blob/18.06/README_ZH.md】
